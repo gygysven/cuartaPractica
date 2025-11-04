@@ -1,4 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
 *{
     box-sizing: border-box;
     margin: 0%;
@@ -15,4 +17,9 @@ body{
     color: rgb(2, 22, 65);
     line-height: 2;
     padding: 20px;
+}
+
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
 }
